@@ -1,15 +1,46 @@
 #content{
 	text-align: center;
-	padding-top: 25%;
+	padding-top: 10%;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				0px 8px 13px rgba(0,0,0,0.2),
 				0px 18px 23px rgba(0,0,0,0.1);
 }
 
+#aboutContent{
+	text-align: center;
+	padding-top: 5%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.2),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+
+#aboutContext{
+	text-align: left;
+	padding-left: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.2),
+				0px 18px 23px rgba(0,0,0,0.1);
+	font-size: 20px;
+}
+
+div.container4 p {
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: left;
+	font-size: 20px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.2),
+				0px 18px 23px rgba(0,0,0,0.1);
+
+     }
+
 body{
 	background: url(https://images.unsplash.com/uploads/14128434147336bfb286b/e76494ac?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=cedc00aca576c1b39b8e8c91d1967711);
 	background-size: cover;
 	background-position: center;
+	  background-attachment: fixed;
 	font-family: Lato;
 	color: white;
 }
@@ -19,6 +50,25 @@ h1{
 	font-size: 5em;
 }
 
+h3{
+	color: white;
+}
+
+h2{
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.2),
+				0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+h4{
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.2),
+				0px 18px 23px rgba(0,0,0,0.1);
+	
+}
 html{
 	height: 100%;
 }
