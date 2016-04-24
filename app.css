@@ -14,7 +14,17 @@
 				0px 18px 23px rgba(0,0,0,0.1);
 }
 
+.jumbotron{
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+	text-align: center;
+	padding: 2.5%;
+	font-family: Lato;
+	color: black;
+	background-color:  #e6e6e6;
+	font-size: 20px;
 
+}
 
 #aboutContext{
 	text-align: left;
@@ -26,15 +36,18 @@
 }
 
 div.container4 p {
+	padding-bottom: 2%;
 	padding-left: 25%;
 	padding-right: 25%;
-	text-align: left;
+	text-align: center;
 	font-size: 20px;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				0px 8px 13px rgba(0,0,0,0.2),
 				0px 18px 23px rgba(0,0,0,0.1);
 
      }
+
+
 
 body{
 	background: url(https://images.unsplash.com/uploads/14128434147336bfb286b/e76494ac?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=cedc00aca576c1b39b8e8c91d1967711);
@@ -77,4 +90,8 @@ hr{
 	width: 400px;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.text-center{
+	padding-bottom: 2%;
 }

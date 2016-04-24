@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>Navjot Bola - Software Engineer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="app.css">
@@ -27,6 +30,7 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="aboutMe.html">About Me</a></li>
 					<li class="dropdown">
+					<li class="active">
 						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="java.html">Java</a></li>
@@ -37,30 +41,66 @@
 							<li role="separator" class="divider"></li>
 							<li><a href="#">Other Work</a></li>
 						</ul>
+						</li>
 					</li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="contact.html"><i class="fa fa-connectdevelop"></i> Connect</a></li>
+					<li><a href="contact.html"><i class="fa fa-connectdevelop"></i> Connect</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
 
-
 <div class="aboutContainer">
 	<div class="row">
 		<div class="col-lg-12">
-		<div id="content">
-			<h1>Lets Connect</h1>
-			<a href="mailto:navjotb1@gmail.com"><h3>Email</h3>
-			<a target="_blank" href="https://github.com/navjotbola"><h3>Github</h3></a>
-			<a target="_blank" href="https://www.linkedin.com/in/navjotbola"><h3>Linkedin</h3></a>
-			<hr>
+			<div id="aboutContent">
+				<h1>Connect Game</h1>
 			</div>
-		</div>	
+		</div>
 	</div>
 </div>
+
+
+<!--START OF SLIDE SHOW-->
+
+<div class="w3-content w3-section" style="max-width:500px">
+<img class="mySlides w3-animate-fading" src="images/connect/1.png" style="width:100%">
+<img class="mySlides w3-animate-fading" src="images/connect/2.png" style="width:100%">
+<img class="mySlides w3-animate-fading" src="images/connect/3.png" style="width:100%">
+<img class="mySlides w3-animate-fading" src="images/connect/4.png" style="width:100%">
+
+</div>
+<!--END OF SLIDE SHOW-->
+			<div class=container4>
+				<p>
+					Shown above is a Connect Game made with the Java GUI enviornment. It allows users to select the amount of rows and columns (n x n) of the game board, and choose the winning connection length. The code uses efficient object-oriented design principles as well as a MVC enviornment. Players are allowed to select any "position" on the board and it will drop a piece to the bottom, similiar to a real life Connect 4 game. After each piece is dropped, the program uses recursive calls to check if a winner has been reached.  
+				</p>
+			</div>
+<div class="text-center">
+<a target="_blank" href="https://github.com/navjotbola/Connect-Four-Game" class="btn btn-info btn-lg">Source Code</a>
+</div>
+
+<!--START OF SLIDE SHOW-->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000);    
+}
+</script>
+<!--END OF SLIDE SHOW-->
+
 
 	<!-- scripts -->
 	<script src="http://code.jquery.com/jquery-2.2.2.js"   integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="   crossorigin="anonymous"></script>  
