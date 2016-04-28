@@ -6,6 +6,14 @@
 				0px 18px 23px rgba(0,0,0,0.1);
 }
 
+#homecontent{
+	text-align: center;
+	padding-top: 10%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.2),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
 #aboutContent{
 	text-align: center;
 	padding-top: 5%;
@@ -13,6 +21,14 @@
 				0px 8px 13px rgba(0,0,0,0.2),
 				0px 18px 23px rgba(0,0,0,0.1);
 }
+ #port{
+ 	    font-size: 32px;
+ }
+
+ #content a{
+     color: #FFFFFF;
+     text-decoration: none;	
+ }
 
 .jumbotron{
 	opacity: 0.8;
