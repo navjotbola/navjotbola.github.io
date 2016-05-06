@@ -100,10 +100,11 @@ div.container4 p {
 
 
 body{
+
 	background: url(https://images.unsplash.com/uploads/14128434147336bfb286b/e76494ac?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=cedc00aca576c1b39b8e8c91d1967711);
 	background-size: cover;
 	background-position: center;
-	  background-attachment: fixed;
+	background-attachment: fixed;
 	font-family: Lato;
 	color: white;
 }
